@@ -196,3 +196,21 @@ video {
   font-weight: 300;
   letter-spacing: 0.5px;
 }
+@media (min-width:768px){
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav main main"
+    "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: white;
+}
+}
