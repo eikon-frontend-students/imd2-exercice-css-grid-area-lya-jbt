@@ -213,4 +213,12 @@ video {
   margin: 0 auto;
   background: white;
 }
+.projects-grid{
+  grid-template-columns: 1fr 1fr;
+}
+}
+@media(min-width:1200px){
+  .projects-grid{
+  grid-template-columns: 1fr 1fr 1fr;
+}
 }
